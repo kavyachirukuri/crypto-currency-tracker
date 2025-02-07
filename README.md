@@ -10,10 +10,8 @@ Frontend: React.js, TypeScript, Next.js
 Styling: CSS
 State Management: React Context API
 Data Fetching: Binance API
+
 📂 Project Structure
-graphql
-Copy
-Edit
 📦 CRYPTO-TRACKER  
 ├── 📂 .vscode               # VS Code settings  
 ├── 📂 build                 # Build files  
@@ -38,6 +36,7 @@ Edit
 │   ├── setupTests.ts        # Testing setup  
 ├── package.json             # Project dependencies  
 ├── README.md                # Project documentation  
+
 📌 Features
 ✅ View real-time cryptocurrency prices
 ✅ Search for cryptocurrencies
@@ -50,20 +49,13 @@ Edit
 Ensure you have Node.js and npm installed.
 
 📥 Clone Repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/crypto-tracker.git
 cd crypto-tracker
+
 📦 Install Dependencies
-bash
-Copy
-Edit
 npm install
+
 🚀 Run the Application
-bash
-Copy
-Edit
 npm start
 The app runs at http://localhost:3000
 
