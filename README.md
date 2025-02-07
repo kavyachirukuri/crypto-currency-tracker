@@ -49,7 +49,7 @@ Data Fetching: Binance API
 Ensure you have Node.js and npm installed.
 
 📥 Clone Repository
-git clone https://github.com/your-username/crypto-tracker.git
+git clone https://github.com/kavyachirukuri/crypto-currency-tracker.git
 cd crypto-tracker
 
 📦 Install Dependencies
