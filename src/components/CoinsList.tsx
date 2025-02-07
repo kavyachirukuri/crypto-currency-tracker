@@ -73,6 +73,16 @@ const CoinsList: FC<CoinsListProps> = ({ searchTerm }) => {
     navigate(`/coin/${symbol}`);
   };
 
+  let message;
+
+  if (currentItems.length > 0) {
+    message = "";
+  } else if (activeTab === "favorites") {
+    message = "No favorite coins added yet.";
+  } else {
+    message = "No matching coins found. Try searching for a different symbol.";
+  }
+
   if (loading) {
     return <div className="text-white p-4">Loading...</div>;
   }
@@ -183,7 +193,7 @@ const CoinsList: FC<CoinsListProps> = ({ searchTerm }) => {
                 colSpan={7}
                 className="text-center text-gray-500 dark:text-gray-400 py-4"
               >
-                No favorite coins added yet.
+                {message}
               </td>
             </tr>
           )}
