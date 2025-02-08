@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+🚀 Crypto Tracker
+🌐 Live Demo
+🔗 https://cryptocurrencytracker-kc.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Description
+Crypto Tracker is a web application that allows users to track real-time cryptocurrency prices, view detailed coin information, and manage a list of favorite coins.
 
-## Available Scripts
+🛠 Tech Stack
+Frontend: React.js, TypeScript, Next.js
+Styling: CSS
+State Management: React Context API
+Data Fetching: Binance API
 
-In the project directory, you can run:
+📂 Project Structure
+📦 CRYPTO-TRACKER  
+├── 📂 .vscode               # VS Code settings  
+├── 📂 build                 # Build files  
+├── 📂 node_modules          # Dependencies  
+├── 📂 public                # Static assets  
+├── 📂 src                   # Source code  
+│   ├── 📂 api               # API handlers  
+│   │   ├── binance.ts       # Fetch cryptocurrency data from Binance API  
+│   ├── 📂 components        # UI components  
+│   │   ├── CoinDetail.tsx   # Displays detailed coin information  
+│   │   ├── CoinsList.tsx    # Renders the list of cryptocurrencies  
+│   │   ├── Crypto.tsx       # Main component for crypto tracking  
+│   │   ├── SearchBar.tsx    # Search functionality for crypto coins  
+│   ├── 📂 context           # Global state management  
+│   │   ├── FavoritesContext.tsx  # Manages favorite coins  
+│   ├── 📂 types             # TypeScript type definitions  
+│   │   ├── cryptoTypes.ts   # Defines types for crypto data  
+│   ├── App.tsx              # Root component  
+│   ├── index.tsx            # Application entry point  
+│   ├── App.css, index.css   # Styles  
+│   ├── logo.svg             # Logo  
+│   ├── setupTests.ts        # Testing setup  
+├── package.json             # Project dependencies  
+├── README.md                # Project documentation  
 
-### `npm start`
+📌 Features
+✅ View real-time cryptocurrency prices
+✅ Search for cryptocurrencies
+✅ Add/remove coins from the favorites list
+✅ Get detailed information about each coin
+✅ Responsive design for all devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🏗 Installation & Setup
+🔧 Prerequisites
+Ensure you have Node.js and npm installed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📥 Clone Repository
+git clone https://github.com/kavyachirukuri/crypto-currency-tracker.git
+cd crypto-tracker
 
-### `npm test`
+📦 Install Dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Run the Application
+npm start
+The app runs at http://localhost:3000
 
-### `npm run build`
+⚡ Deployment
+The app is deployed on Netlify at:
+🔗 https://cryptocurrencytracker-kc.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📜 License
+This project is open-source and free to use.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
