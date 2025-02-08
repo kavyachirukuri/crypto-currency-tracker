@@ -11,7 +11,7 @@ function App() {
         <nav className="fixed top-0 left-0 w-full bg-white/20 backdrop-blur-lg shadow-xl z-10">
           <div className="p-5 flex justify-center">
             <h1 className="text-2xl text-black-800 font-black">
-              Crypto Currency Tracker
+              Crypto Watchlist App
             </h1>
           </div>
         </nav>
